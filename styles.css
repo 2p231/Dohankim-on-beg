@@ -1,0 +1,448 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(244, 244, 15);
+    font-family: "Neue Haas Grotesk", Helvetica;
+    text-align: center;
+
+  }
+  
+  .container {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  h2 {font-size: 6rem;}
+  h1 {
+    font-size: 6rem;
+
+  }
+  
+a:link {
+  text-decoration: none;
+}
+  
+  .title{
+    color: rgb(251, 255, 0);
+  }
+
+  p{
+    margin-top: 100px;
+    margin-bottom:0;
+  }
+
+  pre{
+    font-size: 1.3rem;
+    margin-bottom:0;
+  }
+ 
+
+
+
+  .line {
+    background: #fe0707;
+    border-radius: 10%;
+    width: 300px;
+    height: 6px;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    animation: moving 9.5s infinite ease-in-out
+}
+@keyframes moving {
+    0%  {
+        left: 90% 
+    }
+    25% {
+        left: 70% 
+    }
+    50% {
+        left: 50% 
+    }
+    100% {
+        left: 30% 
+    }
+    100% {
+        left: 5% 
+    }
+}
+
+
+.line2 {
+  background: #fafe07;
+  border-radius: 10%;
+  width: 500px;
+  height: 6px;
+  position: absolute;
+  left: 93%;
+  top: 20%;
+  animation: moving 12.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line3 {
+  background: #fafe07;
+  border-radius: 10%;
+  width: 700px;
+  height: 6px;
+  position: absolute;
+  left: 90%;
+  top: 44%;
+  animation: moving 9.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line4 {
+  background: #fe0707;
+  border-radius: 10%;
+  width: 900px;
+  height: 6px;
+  position: absolute;
+  left: 90%;
+  top: 68%;
+  animation: moving 10.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+.line5 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 1100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 105%;
+  animation: moving 14.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line6 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 200px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 85%;
+  animation: moving 6.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line7 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 50px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 75%;
+  animation: moving 6.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+.line8 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 50px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 100%;
+  animation: moving 3.5s infinite ease-in-out
+}
+
+span {
+  margin-bottom: 0px;
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+.line9 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 69%;
+  animation: moving 3.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line10 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 79%;
+  animation: moving 2.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line11{
+  background: #eefe07;
+  border-radius: 10%;
+  width: 100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 89%;
+  animation: moving 1.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line12 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 99%;
+  animation: moving 2.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line13 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 109%;
+  animation: moving 1.5s infinite ease-in-out
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
+
+.line14 {
+  background: #eefe07;
+  border-radius: 10%;
+  width: 100px;
+  height: 6px;
+  position: absolute;
+  left: 74%;
+  top: 119%;
+  animation: moving 1s infinite ease-in-out
+}
+h1{
+  font-size: 200px;
+  margin-top:-100px;
+  padding-top: 0;
+}
+a {
+  text-decoration: none;
+  color: yellow;
+
+}
+strong {
+  font-size: 30px;
+  color: red;
+}
+@keyframes moving {
+  0%  {
+      left: 90% 
+  }
+  25% {
+      left: 70% 
+  }
+  50% {
+      left: 50% 
+  }
+  100% {
+      left: 30% 
+  }
+  100% {
+      left: 5% 
+  }
+}
